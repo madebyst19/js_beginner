@@ -4,3 +4,4 @@ const c = 5;
 console.log(a&&b&&c);
 
 console.log(a||b||c);
+aaaa
