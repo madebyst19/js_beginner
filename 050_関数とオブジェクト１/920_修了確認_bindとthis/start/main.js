@@ -1,9 +1,10 @@
 const person = {
     name: 'Tom',
-    bye: () => {
+    bye(){
         console.log('Bye ' + this.name);
     },
     hello: function (greeting) {
+        greeting = greeting || "hello"
         console.log(greeting + ' ' + this.name);
         return greeting + ' ' + this.name;
     },
@@ -23,9 +24,16 @@ const person = {
      * ３．thisを一旦変数に代入
      */
 
-
-    
+hello1s(){
+    // setTimeout(this.hello.bind(this, "hello"),1000)
+    setTimeout(()=> {
+        this.hello("hello");
+    },1000);
+    }
 }
+    
+person.hello1s();
+
 
 /**
  * 問題１：
@@ -33,7 +41,7 @@ const person = {
  * と出力されるように、以下のコード
  * の記載を変更しましょう。
  */
-setTimeout(person.hello, 1000);
+// setTimeout(person.hello.bind(person,"hello"), 1000);
 
 /**
  * 問題２：
@@ -41,7 +49,7 @@ setTimeout(person.hello, 1000);
  * と出力されるように、
  * 以下のコードを変更してください。
  */
-alert(person.hello);
+//  console.log(person.hello("hello"));
 
 /**
  * 問題３：
@@ -50,4 +58,4 @@ alert(person.hello);
  * "Bye"しか表示されませんでした。
  * "Bye Tom"とするためにはどうすればよいでしょうか？
  */
-setTimeout(person.bye.bind(person), 1000);
+// setTimeout(person.bye.bind(person), 1000);
