@@ -14,7 +14,7 @@ console.log(result);
 
 /**
  * 問題２：
- * incrementFactoryを短く書き直してみましょう。
+ * incrementFactoryを短く書き直してみましああああょう。
  */
 function incrementFactory() {
     
