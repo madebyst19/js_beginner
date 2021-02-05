@@ -2,7 +2,7 @@
  * 以下のコードはクロージャーのレクチャーで作成したコードです。
  * これをアロー関数を用いてなるべく短くなるように記載してみてください。
  * 
- * 問題１：aaaaaaaa
+ * 問題１：aaaaaaaabbbbb
  * addNumberFactoryを短く書き直してみましょう。
  */
 function addNumberFactory = num => value => num + value;
