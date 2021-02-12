@@ -2,7 +2,7 @@
  * 以下のコードはクロージャーのレクチャーで作成したコードです。
  * これをアロー関数を用いてなるべく短くなるように記載してみてくだsさい。
  * ああ
- * 問題１：aaaaaaaあabbbbbああああああsasasasaassa
+ * 問題１：aaaaaaaあabbbbbああああああsaasasasasaassa
  * あ；；；dsdsds；；aa
  * addNumberFactoryを短く書き直してあみましょう。
  */
