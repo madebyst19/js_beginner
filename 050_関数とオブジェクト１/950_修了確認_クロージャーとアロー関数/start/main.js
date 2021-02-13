@@ -3,7 +3,7 @@
  * これをアロー関数を用いてなるべく短くなるように記載してみてくだsさい。
  * ああ
  * 問題１：aaaaaaaあabbbbbああああああsaasasasasaassa
- * あ；；；dsdsds；；aa
+ * あ；；；dsdsds；；aaっささ
  * addNumberFactoryを短く書き直してあみましょう。
  */
 function addNumberFactory = num => value => num + value;
